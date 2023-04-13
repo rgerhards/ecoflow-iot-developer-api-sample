@@ -1,0 +1,26 @@
+EcoFlow has released a cloud-base API for their units, called
+the "EcoFlow IoT Develper Platform". This permits to query and set
+parameters via an official API.
+
+The API description is available at
+
+    https://developer.ecoflow.com/us/document
+
+Unfortunately, this doc is terse and lacks sample code. While trying
+to understand the API, I have crafted some non-production sample code
+on how to talk to many (but not all) API calls from python.
+
+In it's current state, this code hopefully provides an idea of how
+to utilize the API. It definitely needs to be modified for real 
+production code.
+
+Note: secret data is expected via environment variables. See the 
+top of ecoflow.py to see what is needed. Note that only the
+ECOFLOW* environment variables are needed - the rest is used
+for my other applications.
+
+I may improve the code as I use it for my own projects. No
+promise, though. Suggestions for improvements are of course
+welcome.
+
+YOU NEED TO BE OWNER OF A SUPPORTED ECOFLOW UNIT TO USE THIS CODE!
